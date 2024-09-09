@@ -1,0 +1,28 @@
+.Icons {
+  &__content {
+    margin: 0 auto;
+    width: 1210px;
+    text-align: center;
+    font-family: "Poppins";
+
+    margin-top: 220px;
+  }
+  &__title {
+    margin-bottom: 138px;
+    h2 {
+      color: rgb(66, 68, 110);
+      font-size: 48px;
+      margin-bottom: 48px;
+    }
+    p {
+      color: rgb(102, 102, 102);
+      font-size: 32px;
+    }
+  }
+  &__block {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 106px;
+
+  }
+}

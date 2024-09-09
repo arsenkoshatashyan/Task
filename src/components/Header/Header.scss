@@ -1,0 +1,25 @@
+.Header {
+  &__content {
+    margin: 0 auto;
+    width: 1204px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 220px;
+    font-family: "Poppins";
+  }
+  &__title {
+    h1 {
+      font-size: 58px;
+      font-weight: 700;
+      color: rgba(66, 68, 110, 1);
+    }
+    span {
+      color: rgb(27, 136, 182);
+    }
+  }
+  &__logo {
+    img {
+      width: 350px;
+    }
+  }
+}

@@ -1,0 +1,47 @@
+.Footer {
+  width: 1210px;
+  margin: 0 auto;
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 204px;
+    border-bottom: 2px solid rgb(207, 199, 199);
+    color: rgba(66, 68, 110, 1);
+    font-family: "Poppins";
+  }
+  &__contact {
+    display: flex;
+    gap: 32px;
+  }
+ 
+  &__contacts {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 60px;
+    color: rgba(66, 68, 110, 1);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 66px;
+    font-family: "DM Sans";
+    span:nth-child(1) {
+      color: rgb(107, 61, 214);
+    }
+    span:nth-child(2) {
+      color: rgb(160, 23, 160);
+    }
+    span:nth-child(3) {
+      color: rgb(233, 72, 233);
+    }
+
+    ul {
+      display: flex;
+      gap: 52px;
+      list-style: none;
+    }
+    p {
+      font-family: "Poppins";
+    }
+  }
+}

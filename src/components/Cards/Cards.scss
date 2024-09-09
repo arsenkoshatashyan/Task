@@ -1,0 +1,73 @@
+.Cards {
+  width: 100%;
+  &__content {
+    margin: 0 auto;
+    width: 1218px;
+    font-family: "Poppins";
+    margin-top: 214px;
+    font-family: "Poppins";
+  }
+  &__title {
+    text-align: center;
+
+    h2 {
+      color: rgb(66, 68, 110);
+      font-size: 48px;
+      margin-bottom: 48px;
+    }
+    p {
+      color: rgb(102, 102, 102);
+      font-size: 32px;
+    }
+  }
+  &__block {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin: 0 auto;
+    margin-top: 96px;
+  }
+  &__block-content {
+    border-radius: 20px;
+    box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.2);
+    width: 374px;
+    h2 {
+      font-size: 28px;
+      font-weight: 500;
+      margin-top: 26px;
+      margin-bottom: 17px;
+      padding-left: 28px;
+      padding-right: 28px;
+      color: rgba(0, 0, 0, 1);
+    }
+    h3 {
+      font-size: 18px;
+      font-weight: 300;
+      padding-left: 28px;
+      padding-right: 28px;
+      margin-bottom: 12px;
+      color: rgba(102, 102, 102, 1);
+    }
+    p {
+      font-size: 16px;
+      font-weight: 400;
+      padding-left: 28px;
+      padding-right: 28px;
+      color: rgba(102, 102, 102, 1);
+    }
+  }
+  &__desc {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 28px;
+    padding-right: 28px;
+    margin-top: 22px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 24px;
+    text-decoration: underline;
+    div {
+      display: flex;
+      gap: 12px;
+    }
+  }
+}
